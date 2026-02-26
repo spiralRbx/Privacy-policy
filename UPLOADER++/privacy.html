@@ -18,50 +18,55 @@
   </select>
 
   <div class="container">
+    <a href="/" class="back-link">← <span data-t="back">Back to site</span></a>
     
     <h1>🔒 <span data-t="title">Privacy Policy</span></h1>
     <p class="updated" data-t="updated">Last updated: February 2026</p>
 
     <h2 data-t="s1_title">1. General Information</h2>
-    <p data-t="s1_content">UPLOADER++ is a browser extension that enhances the audio upload experience on Roblox. This policy describes how we collect, use, and protect your information.</p>
+    <p data-t="s1_content">UPLOADER++ is a browser extension that enhances the audio upload experience on Roblox, including spoofer, fast generation, and intro/audio tools. All audio processing is performed locally on your device. This policy describes how we collect, use, and protect your information.</p>
 
     <h2 data-t="s2_title">2. Data Collected</h2>
     <p><strong data-t="s2_local">2.1 Local Storage</strong></p>
     <ul>
-      <li data-t="s2_l1">Extension settings (theme, upload preferences)</li>
+      <li data-t="s2_l1">Extension settings (theme, language, upload preferences)</li>
       <li data-t="s2_l2">Upload history (stored only on your device)</li>
+      <li data-t="s2_l3">Audio processing data (processed entirely on your device via FFmpeg WASM, never sent to external servers)</li>
     </ul>
 
     <h2 data-t="s3_title">3. Use of Data</h2>
     <ul>
       <li data-t="s3_1">Provide extension functionality</li>
+      <li data-t="s3_2">Process audio locally on your device (spoofer, fast generation, intro/audio)</li>
+      <li data-t="s3_3">Save your preferences and upload history</li>
       <li data-t="s3_4">Improve user experience</li>
-      <li data-t="s3_5">Communicate important updates</li>
     </ul>
 
     <h2 data-t="s4_title">4. Security</h2>
     <ul>
-      <li data-t="s4_3">We do not store Roblox passwords or credentials</li>
-      <li data-t="s4_4">Licenses are device-bound to prevent unauthorized sharing</li>
-      <li data-t="s4_5">Servers protected with security best practices</li>
+      <li data-t="s4_1">All audio processing happens locally on your device — no audio is sent to external servers</li>
+      <li data-t="s4_2">No personal data, passwords, or credentials are collected or stored remotely</li>
+      <li data-t="s4_3">The extension only communicates with Roblox APIs (create.roblox.com and apis.roblox.com) for uploads</li>
+      <li data-t="s4_4">All communication with Roblox uses HTTPS/TLS encryption</li>
     </ul>
 
     <h2 data-t="s5_title">5. Sharing</h2>
-    <p data-t="s5_content">We do not sell, rent, or share your personal information with third parties, except when necessary to process payments (via Stripe) or when required by law.</p>
+    <p data-t="s5_content">We do not sell, rent, or share your personal information with third parties. No data leaves your device except audio files uploaded directly to Roblox through its official API.</p>
 
     <h2 data-t="s6_title">6. Extension Permissions</h2>
     <ul>
-      <li data-t="s6_1"><strong>Storage:</strong> To save settings and history locally</li>
+      <li data-t="s6_1"><strong>Storage:</strong> To save settings and upload history locally</li>
       <li data-t="s6_2"><strong>Tabs:</strong> To detect when you're on Roblox Create</li>
       <li data-t="s6_3"><strong>Host permissions:</strong> To interact only with create.roblox.com and apis.roblox.com</li>
-      <li data-t="s6_4"><strong>Downloads:</strong> To save processed audio files</li>
+      <li data-t="s6_4"><strong>Offscreen:</strong> To run audio processing (FFmpeg WASM) in the background without performance throttling</li>
+      <li data-t="s6_5"><strong>Downloads:</strong> To save processed audio files to your device</li>
     </ul>
 
     <h2 data-t="s7_title">7. Your Rights</h2>
-    <p data-t="s7_content">You have the right to access, correct, or delete your personal data. To exercise these rights, contact us via Discord or email.</p>
+    <p data-t="s7_content">You have the right to access, correct, or delete your data at any time. Since all data is stored locally on your device, you can clear it by clearing the extension's storage or uninstalling the extension.</p>
 
     <h2 data-t="s8_title">8. Cookies and Tracking</h2>
-    <p data-t="s8_content">The UPLOADER++ extension does not use tracking cookies. We only use browser local storage to save your preferences.</p>
+    <p data-t="s8_content">The UPLOADER++ extension does not use tracking cookies, analytics, or any form of telemetry. We only use browser local storage to save your preferences.</p>
 
     <h2 data-t="s9_title">9. Policy Changes</h2>
     <p data-t="s9_content">We may update this policy periodically. We recommend reviewing this page occasionally. Significant changes will be communicated through the extension.</p>
